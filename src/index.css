@@ -32,9 +32,9 @@ All colors MUST be HSL for semantic consistency.
     --muted: 215 25% 96%;
     --muted-foreground: 215 15% 55%;
 
-    /* Accent - Success green for eco-friendly actions */
-    --accent: 140 70% 45%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Light neutral for clean aesthetic */
+    --accent: 220 15% 90%;
+    --accent-foreground: 220 15% 25%;
 
     /* Status colors for bin monitoring */
     --success: 140 70% 45%;
@@ -116,8 +116,8 @@ All colors MUST be HSL for semantic consistency.
     --muted: 225 15% 12%;
     --muted-foreground: 215 15% 65%;
 
-    --accent: 140 70% 55%;
-    --accent-foreground: 225 25% 8%;
+    --accent: 220 15% 85%;
+    --accent-foreground: 220 15% 25%;
 
     /* Dark mode status colors */
     --success: 140 70% 55%;
@@ -228,7 +228,7 @@ All colors MUST be HSL for semantic consistency.
 
   /* Animated background */
   .animated-bg {
-    background: linear-gradient(-45deg, hsl(var(--primary)), hsl(var(--primary-light)), hsl(var(--accent)), hsl(var(--primary-dark)));
+    background: linear-gradient(-45deg, hsl(220 15% 96%), hsl(220 15% 98%), hsl(var(--accent)), hsl(220 15% 94%));
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
   }
